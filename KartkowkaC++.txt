@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    //Kartkowka Algo C++ Nazwisko
+
+    //Zad 1. Wypisz w różnych liniach swoje imie i nazwisko;
+    cout<<"Roman"<<endl;
+    cout<<"Zbroinski"<<endl;
+    //Zad 2. Wypisz swój wiek i nazwę szkoły
+    // w liniach  z użyciem zmiennych;
+    string nazwaSzkoly = "SP 1 w Górze";
+    int wiek = 50;
+    cout<<"Nazwa szkoły: "<<nazwaSzkoly<<endl;
+    cout<<"Mam lat: " <<wiek<<endl;
+    //Zad 3. Wprowadż z klawiatury dwie wartosci
+    //i wykonaj działania: + - * /
+    cout<<"Podaj pierwsza liczbę: "<<endl;
+    double liczba1;
+    cin>>liczba1;
+    cout<<"Podaj drugą liczbę: "<<endl;
+    double liczba2;
+    cin>>liczba2;
+    cout<<"Podales liczby: "<<liczba1<<" i "<<liczba2<<endl;
+    
+    double suma = liczba1 + liczba2;
+    double roznica = liczba1 - liczba2;
+    double iloraz = liczba1 / liczba2;
+    double iloczyn = liczba1 * liczba2;
+    
+    /*
+        for(int i=0;i<10;i=i+2)
+  {
+      cout<<i<<endl;
+  }
+  cout<<endl;
+  cout<<"*******************"<<endl;
+  for(int x=10;x>0;x--)
+  {
+      cout<<x<<endl;
+  }  
+    */
+    
+    return 0;
+}

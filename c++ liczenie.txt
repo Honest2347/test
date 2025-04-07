@@ -1,0 +1,36 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    /*
+    cout<<"Jak masz na imie?"<<endl;
+    string imie;
+    cin>>imie;
+    cout<<"Masz na imie: :"<<imie<<endl;
+    
+    cout<<"Jak masz na nazwisko?"<<endl;
+    string nazwisko;
+    cin>>nazwisko;
+    cout<<"Masz na nazwisko :"<<imie;
+    */
+    double a = 5, b = 10;
+    double suma = a + b;
+    double roznica = a - b;
+    double iloczyn = a * b;
+    double iloraz = a / b;
+    //int mod1 = a % b;
+    cout<<"Zmienna a wynopsi:"<<a<<endl;
+    cout<<"Zmienna b wynopsi:"<<b<<endl;
+    cout<<"Suma a i b wynosi:"<< suma <<endl;
+    cout<<"Roznica a i b wynosi:"<< roznica <<endl;
+    cout<<"Mnożenie a i b wynosi:"<< iloczyn <<endl;
+    cout<<"Dzielenie a i b wynosi:"<< iloraz <<endl;
+    //cout<<"Modulo a i b wynosi:"<< mod1 <<endl;
+    return 0;
+    // -
+    // /
+    // *
+    // %
+}
